@@ -94,10 +94,10 @@
   -webkit-border-radius: 5px;
 }
 
-/* .readme:hover{
+.readme:hover{
   color: white;
   background-color: #10bfcc;
-} */
+} 
 
 .contactme {
   position: relative;

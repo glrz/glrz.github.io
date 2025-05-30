@@ -16,8 +16,10 @@
 }
 
 .profile-pic img {
-  width: 100%;
-  height: auto;
+width: 80px; 
+height: 80px; 
+display: block; 
+margin: 0 auto;
 }
 
 .tracker {

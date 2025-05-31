@@ -1,3 +1,18 @@
+.row .col {
+  display: flex;
+}
+.card.hoverable {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+}
+.card-content {
+  flex-grow: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
 .logo {
   margin-top: 0 !important;
   padding-top: 0 !important;

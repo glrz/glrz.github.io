@@ -1,6 +1,9 @@
-.row .col {
+.card.hoverable, .card {
   display: flex;
+  flex-direction: column;
+  height: 100%;
 }
+
 .card.hoverable {
   display: flex;
   flex-direction: column;

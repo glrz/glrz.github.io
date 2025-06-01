@@ -1,8 +1,10 @@
 .container > .row {
-  display: flex;
-  flex-wrap: wrap;
-  gap: 1rem; /* optional for spacing */
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 1rem; /* spacing between cards */
+justify-content: center; /* centers last row cards if fewer than full */
 }
+
 
 .container > .row > .col {
   display: flex;
@@ -10,11 +12,11 @@
 }
 
 .card {
-  flex: 1 1 0;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  min-height: 280px; /* or adjust based on your card height */
+  min-height: 280px; /* or whatever fits your content */
+  height: 100%;
 }
 
 .card-title {
@@ -24,7 +26,6 @@
 
 .row .col {
   display: flex;
-  flex-wrap: wrap;
   justify-content: center;
 }
 

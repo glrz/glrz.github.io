@@ -1,6 +1,9 @@
 .row .col {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
+
 .card.hoverable {
   display: flex;
   flex-direction: column;

@@ -1,3 +1,27 @@
+.container > .row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem; /* optional for spacing */
+}
+
+.container > .row > .col {
+  display: flex;
+  flex-direction: column;
+}
+
+.card {
+  flex: 1 1 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-height: 280px; /* or adjust based on your card height */
+}
+
+.card-title {
+    word-wrap: break-word;
+    line-height: 1.2;
+  }
+
 .row .col {
   display: flex;
   flex-wrap: wrap;

@@ -99,6 +99,7 @@ nav {
   width: auto;
   text-align: inherit;
   /* padding: 10px; */
+ color: white;
 }
 
 .icon-btn {
@@ -164,9 +165,7 @@ nav {
   color: #10bfcc;
   background-color: white;
 }
-/* main body */
 
-/* body-color */
 
 body {
   color: #333;

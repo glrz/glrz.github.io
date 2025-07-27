@@ -1,11 +1,3 @@
-/* Specific colors for each button */
-.linkedin {
-            background-color: #0077B5;
-}
-.github {
-           background-color: #333;
-}
-
 /* Style for the new Linktree button */
         .linktree {
             background-color: #39E09B; /* Linktree's brand color */
@@ -113,13 +105,6 @@ nav {
   margin: 4px;
 }
 
-.github {
-  color: black;
-}
-
-.linkedin {
-  color: #0077b5;
-}
 
 .angellist {
   color: grey;

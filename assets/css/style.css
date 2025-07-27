@@ -3,6 +3,18 @@
             background-color: #39E09B; /* Linktree's brand color */
 }
 
+/* LinkedIn button */
+.linkedin {
+    background-color: #0077B5; /* LinkedIn blue */
+    color: white; /* for contrast */
+}
+
+/* GitHub button */
+.github {
+    background-color: #181717; /* GitHub black */
+    color: white; /* for contrast */
+}
+
 .card.hoverable, .card {
   display: flex;
   flex-direction: column;

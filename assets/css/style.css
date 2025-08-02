@@ -113,6 +113,7 @@ nav {
   border-radius: 45px;
   display: inline-block;
   margin: 4px;
+  color: white; 
 }
 
 .icon-btn:hover {
